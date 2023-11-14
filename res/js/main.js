@@ -72,7 +72,7 @@ setInterval(() => {
         if (x + imageWidth >= canvas.width || x <= 0){
             xVelocity *= -1;
         }
-        ctx.filter = `hue-rotate(${getRan})`
+
     ctx.drawImage(image, x, y, imageWidth, imageHeight );
 },1);
 }
